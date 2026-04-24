@@ -1418,9 +1418,39 @@ body {
     border-bottom: 1px solid $border-dark;
   }
 
+  
   // HERO
+  .carousel {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .carousel-inner,
+  .carousel-item,
+  .hero-slide {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    min-width: 0;
+  }
+
   .hero-slide {
     height: 350px;
+  }
+
+  .hero-overlay {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 20px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-content h2 {
+    font-size: 20px;
   }
 
   // CARDS SECTION
